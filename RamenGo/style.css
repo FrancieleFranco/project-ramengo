@@ -1,0 +1,315 @@
+header {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 768px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.logo-ramengo {
+  width: 100%;
+  height: 100%;
+  max-height: 768px;
+  object-fit: cover;
+  display: block;
+}
+
+.ramengo-header {
+  gap: 0px;
+  opacity: 0px;
+  color: #ffc024;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-shadow: 1px 1px 2px black;
+}
+
+.logo-ramengo {
+  width: 100%;
+  height: 768px;
+}
+
+.cover-describes {
+  font-family: Rounded Mplus 1c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+  position: absolute;
+  top: 67%;
+  bottom: 10%;
+  left: 25%;
+  width: 10%;
+  height: 80%;
+  flex-direction: column;
+  text-shadow: 1px 1px 2px black;
+}
+
+.ramengo-h1 {
+  background: #ffc024;
+}
+
+.button-order-now {
+  background-color: #1820ef;
+  border: none;
+  align-items: center;
+  border-radius: 50px;
+  border: none;
+  width: 213px;
+  height: 60px;
+  top: 1955px;
+  left: 572px;
+  gap: 0px;
+  opacity: 0px;
+  color: #FFFFFF;
+}
+
+.bnt-order-now {
+  position: absolute;
+  top: 90%;
+  left: 27%;
+  width: 5%;
+  height: 10%;
+}
+
+.arrow {
+  float: right;
+  color: #ffc024;
+  font-family: Rounded Mplus 1c;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 20.79px;
+  letter-spacing: 2px;
+  text-align: right;
+  font-size: 24px;
+}
+
+.bnt-my-order {
+  height: 60px;
+  top: 1955px;
+  margin-left: 43%;
+  margin-right: 43%;
+  gap: 0px;
+}
+
+.button-my-order {
+  color: #ffffff;
+  background: #c5c5c5;
+  align-items: center;
+  border-radius: 50px;
+  border: none;
+  width: 213px;
+  height: 60px;
+  top: 1955px;
+  left: 572px;
+  gap: 0px;
+  opacity: 0px;
+  margin-top: 6%;
+}
+
+.container-broths {
+  overflow: hidden;
+}
+
+.item {
+  float: left;
+  width: 33.33%;
+  height: 15opx;
+  box-sizing: border-box;
+  background-color: lightgray;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  padding: 10px;
+  align-items: flex-end;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.item-name {
+  font-family: Rounded Mplus 1c;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24px;
+  text-align: center;
+  color: #1820ef;
+}
+
+.item-description {
+  font-family: Rounded Mplus 1c;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+}
+
+.item-price {
+  font-family: Rounded Mplus 1c;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24px;
+  text-align: center;
+  color: #ff4e42;
+}
+
+.title-broths {
+  font-family: Rounded Mplus 1c;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 47.52px;
+  text-align: center;
+  color: #000000;
+}
+
+.sub-title-broths,
+.sub-title-proteins {
+  font-family: Rounded Mplus 1c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.title-sucess {
+  color: #FFC024;
+  font-family: Rounded Mplus 1c;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24px;
+  text-align: center;
+}
+
+.order-sucees {
+  color: #FF4E42;
+  font-family: Rounded Mplus 1c;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 40px;
+  text-align: center;
+}
+
+.hold-sucess {
+  color: #000000;
+  font-family: Rounded Mplus 1c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.button-place-new-order {
+  background-color: #1820ef;
+  border: none;
+  align-items: center;
+  border-radius: 50px;
+  border: none;
+  width: 213px;
+  height: 60px;
+  top: 1955px;
+  left: 572px;
+  gap: 0px;
+  opacity: 0px;
+  color: #FFFFFF;
+}
+
+.bnt-place-new-order {
+  margin-left: 38%;
+}
+
+.arrow-place-new-order {
+  float: right;
+  color: #ffc024;
+  font-family: Rounded Mplus 1c;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 20.79px;
+  letter-spacing: 2px;
+  text-align: right;
+  font-size: 24px;
+}
+
+.sucess-img {
+  width: 65.46px;
+  height: 71.31px;
+  top: 259px;
+  left: 972.46px;
+  gap: 0px;
+  opacity: 0px;
+  margin-left: 50%;
+}
+
+.data {
+  float: left;
+  width: 50%;
+  height: 50%;
+}
+
+.page-sucess {
+  display: flex;
+  height: 80vh;
+}
+
+.ramengo-sucess {
+  gap: 0px;
+  opacity: 0px;
+  color: #FF4E42;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-shadow: 1px 1px 2px black;
+}
+
+.img-order, .imageSucess{
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+  top: 8%;
+  margin-left: 8.5%;
+  display: flex;
+  flex-direction: column;
+  text-shadow: 1px 1px 2px black;
+}
+
+.your-order {
+  font-family: Rounded Mplus 1c;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  position: absolute;
+  gap: 0px;
+  opacity: 0px;
+  top: 55%;
+  left: 15%;
+  display: flex;
+  flex-direction: column;
+  text-shadow: 1px 1px 2px black;
+}
+.miso-chasuo, .item-description-sucess 
+ {
+  font-family: Rounded Mplus 1c;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 47.52px;
+  text-align: center;
+  color: #FFC024;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+  top: 60%;
+  left: 11%;
+  display: flex;
+  flex-direction: column;
+  text-shadow: 1px 1px 2px black;
+}
